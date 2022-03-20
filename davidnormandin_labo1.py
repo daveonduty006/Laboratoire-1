@@ -25,9 +25,11 @@
 #Vous aurez l'opportunité de manger «le plat préféré, lorsque vous visiterai «le pays préféré» en «l'année future».
 
 
+# Fonction gérant les appels de fonctions 
 def appels_fonctions():
     return 
 
+# Fonction gérant les demandes du Problème 1
 def affichage_nom_num():
     nom = "David Normandin"
     num = "#2295349"
@@ -42,6 +44,7 @@ def affichage_nom_num():
         print("Votre choix n'est pas valide")
     return
 
+# Fonction gérant les demandes du Problème 2
 def puissance(base_entrante, exposant_entrant):
     if base_entrante < 0 or exposant_entrant < 0:
         print("Aucun chiffre ne doit être négatif")
@@ -49,8 +52,9 @@ def puissance(base_entrante, exposant_entrant):
         print(base_entrante**exposant_entrant)
     return 
 
+# Fonction gérant les demandes du Problème 3
 def division_check():
-    nombre = int(input("Entrez un nombre entier"))
+    nombre = int(input("Entrez un nombre entier: "))
     if nombre % 2 == 0 and nombre % 3 == 0:
         print("Votre nombre est divisible par 2 et 3") 
     elif nombre % 2 == 0:
@@ -61,21 +65,24 @@ def division_check():
         print("Votre nombre n'est pas divisible par 2 ou par 3")
     return 
 
+# Fonction gérant les demandes du Problème 4
 def cinquante_quand():
-    fete = int(input("Entrez votre année de fête"))
+    fete = int(input("Entrez votre année de fête: "))
     if fete <= 1972:
         print(f"Vous avez eu 50 ans en {fete+50}")
     else: 
         print(f"Vous aurez 50 ans en {fete+50}")
     return 
 
+# Fonction gérant les demandes du Problème 5
 def operations(float1_entrant, float2_entrant, float3_entrant):
     return print(f"{float1_entrant*float2_entrant/float3_entrant:.3f}")
 
+# Fonction gérant les demandes du Problème 6
 def phrase():
-    plat = input("Entrez votre plat préféré")
-    pays = input("Entrez votre pays préféré")
-    futur = input("Entrez une année future")
+    plat = input("Entrez votre plat préféré: ")
+    pays = input("Entrez votre pays préféré: ")
+    futur = input("Entrez une année future: ")
     return print(f"Vous aurez l'opportunité de manger de la/du {plat}, lorsque vous visiterez le/la/l' {pays} en {futur}")
 
 
