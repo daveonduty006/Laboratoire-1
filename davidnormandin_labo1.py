@@ -1,30 +1,3 @@
-#Problème 1:
-#Écrire un programme affichant un menu offrant les options suivantes à l'utilisateur:
-#1. Afficher le nom
-#2. Afficher le numéro d'étudiant
-#Votre programme doit soit afficher votre propre nom à l'écran si l'utilisateur choisi l'option 1, si l'option 2 est choisie vous devez 
-#afficher votre numéro d'étudiant, sinon vous devez indiquer à l'utilisateur que son choix n'est pas valide.
-
-#Problème 2:
-#Créer un programme contenant une fonction prenant 2 nombres entiers (une base et un exposant). Vérifier que la base et l'exposant ne soient 
-#pas négatifs et retourner le résultat de la puissance.
-
-#Problème 3:
-#Créer un programme demandant à un utilisateur d'entrer un nombre entier et afficher à la console si ce nombre est divisible par 2 ou 3.
-
-#Problème 4:
-#Créer une fonction demandant à l'utilisateur d'entrer son année de fête et afficher à l'écran en quel année l'utilisateur a eu 50 ans ou aura 
-#50 ans.
-
-#Problème 5:
-#Créer une fonction prenant 3 floats, effectuant la multiplication des deux premiers et divisant le résultat par le troisième. Imprimer le 
-#résultat de sorte qu'il n'y ait seulement 3 chiffres après la virgule.
-
-#Problème 6:
-#Créer un programme demandant à l'utilisateur d'entrer son plat préféré, son pays préféré et une année future et affichez la phrase suivante : 
-#Vous aurez l'opportunité de manger «le plat préféré, lorsque vous visiterai «le pays préféré» en «l'année future».
-
-
 # Fonction gérant les retours à l'écran du Problème 1
 def affichage_nom_num():
     nom = "David Normandin"
