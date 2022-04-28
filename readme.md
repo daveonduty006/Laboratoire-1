@@ -31,10 +31,10 @@
     ** Step 6 **
     Create a function that ask of the user his favorite meal, favorite country and a year in the future. A statement will afterward be printed on the screen in this format: 'You will have the opportunity of eating {favorite meal} when you will visit {favorite country} in {future year}.'.
 
-### PROJECT AUTHOR ###
+### Project Author ###
     David Normandin
 
-### STATE OF THE PROJECT ###
+### State of the Project ###
     Finished
 
 
