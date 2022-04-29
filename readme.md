@@ -4,7 +4,7 @@
 ***
 
 ### Description ###
-    This first project is a compilation of unconnected exercises all showcasing returns to the user on the console.
+    This first project is a compilation of unrelated functions all showcasing returns to the user on the console.
     The goal of this project was to familiarise myself with basic Python coding and is using French as the primary mode of communication with the user.
 
     A LOOPING MENU WAS LATER ADDED TO THE ORIGINAL CODE
